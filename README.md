@@ -44,13 +44,18 @@ The final page is the CONTACT US page, where you can see all the developers who 
 ## Mock-Up
 The following images show the web application's appearance and functionality:
 
-<img width="1656" alt="Candidate Search Homepage" src="https://github.com/user-attachments/assets/0c895c26-605c-43d4-ad78-e0c0a5d1753b" />
+<img width="1896" alt="Screenshot 2025-02-21 at 11 37 11 PM" src="https://github.com/user-attachments/assets/63f301f9-2b77-42e3-b2cc-e1a3223b0972" />
 
-<img width="1658" alt="Potential Candidate Page" src="https://github.com/user-attachments/assets/b8cbfd9e-0ba3-4ea9-ba77-bce76de8ce54" />
+<img width="1897" alt="Screenshot 2025-02-21 at 11 37 31 PM" src="https://github.com/user-attachments/assets/7b67d05d-e75a-499f-9d50-ee33705b6cb6" />
+
+<img width="1896" alt="Screenshot 2025-02-21 at 11 37 50 PM" src="https://github.com/user-attachments/assets/923b2f7c-7a0e-4238-8db9-56a74627a2fd" />
+
+<img width="1904" alt="Screenshot 2025-02-21 at 11 41 11 PM" src="https://github.com/user-attachments/assets/091a7c9a-eacd-48f9-b03b-6f022034940c" />
+
 
 ## Deployed URL
 
-[Click Here](https://candidate-search-deployed.onrender.com) to view the live version of the app. 
+[Click Here]() to view the live version of the app. 
 
 ## License
 
