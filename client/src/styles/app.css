@@ -1,0 +1,32 @@
+
+/* Override variables when the dark theme is active */
+.page-container.dark {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    background-color: var(--dark-theme-bg);
+    color: var(--dark-theme-green);
+}
+
+/* Global styling that applies the theme variables */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--light-theme-green);
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    background-color: var(--light-theme-bg);
+    color: var(--light-theme-green);
+}
+
+.flex-grow-1 {
+    flex: 1; /* This makes the main area expand to fill the space */
+}
+main {
+    padding-bottom: 100px;
+}

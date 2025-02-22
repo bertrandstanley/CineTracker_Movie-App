@@ -1,0 +1,81 @@
+/* Light Theme Footer Styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--light-theme-bg);
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+}
+
+footer .copyright {
+    color: var(--light-theme-green) !important;
+}
+
+.footer-icon-list li a {
+    background-color: var(--orange-color);
+    border-radius: 4px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.footer-icon-list li a:hover {
+    background-color: var(--light-theme-green);
+}
+
+.footer-icon-list li a svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    color: var(--pure-black-color);
+}
+
+.footer-icon-list li {
+    margin: 0 15px;
+}
+
+/* Light Theme Footer Styles */
+.page-container.dark footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--dark-theme-bg);
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+}
+
+.page-container.dark footer .copyright {
+    color: var(--text-color) !important;
+}
+
+.page-container.dark .footer-icon-list li a {
+    background-color: var(--orange-color);
+    border-radius: 4px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.page-container.dark .footer-icon-list li a:hover {
+    background-color: var(--dark-theme-green);
+}
+
+.page-container.dark .footer-icon-list li a svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    color: var(--dark-theme-brown);
+}
+
+.page-container.dark .footer-icon-list li {
+    margin: 0 15px;
+}

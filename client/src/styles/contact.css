@@ -1,0 +1,74 @@
+.contact-container {
+    margin-bottom: 100px;
+}
+
+.resize {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.stanley {
+    background-image: url('../../public/Stanley-Bertrand.png');
+    background-size: cover;
+    background-position: center;
+    height: 250px !important;
+    width: 250px !important;
+}
+
+div.gilmer {
+    background-image: url('../../public/Gilmer-Perez.png');
+    background-size: cover;
+    background-position: center;
+    height: 250px !important;
+    width: 250px !important;
+}
+
+div.adi {
+    background-image: url('../../Adi-Patel.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px !important;
+    width: 250px !important;
+}
+
+div.freddy {
+    background-image: url('../../Freddy-Laboy.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 250px !important;
+    width: 250px !important;
+}
+
+div.center {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+div.custom-flex {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    flex-wrap: wrap;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center !important;
+}
+
+.contact-card-button {
+    fill: currentColor !important;
+    color: #ff6f00 !important;
+}
+
+.external-background{
+    background-color: var(--dark-theme-brown);
+}
+
+.external-button{
+    background-color: var(--orange-color) !important;
+    color: var(--dark-theme-brown) !important;
+    border: none;
+}

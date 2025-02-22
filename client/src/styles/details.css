@@ -1,0 +1,148 @@
+/* Background Of the Page */
+/* Global styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensures the body takes the full viewport height */
+  width: 100%; /* Ensures the body takes the full viewport width */
+  overflow-x: hidden; /* Optional: prevents horizontal scrolling */
+}
+
+body {
+  height: 100%;
+}
+
+/* Button Container First Section */
+.custom-buttons-container {
+  background-color: var(--dark-theme-brown) !important;
+  position: absolute !important;
+  bottom: 20px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  display: flex !important;
+  gap: 20px !important;
+}
+
+.details-button{
+  background-color: var(--orange-color) !important;
+  color: var(--dark-theme-brown) !important;
+  border: none !important;
+}
+
+.right-side{
+  display: none !important;
+}
+
+.custom-buttons-container button {
+  background-color: #FF6F00 !important;  
+  color: white !important;          
+  border: none !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.custom-buttons-container button:hover {
+  background-color: #F0FFFF !important; 
+  color: #000000 !important;
+  font-weight: bold !important;           
+}
+
+/* Second Section - Youtube */
+.image-placeholder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+/* .logo-image {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+} */
+
+/* Button Container Reviews Section */
+.btn-outline-secondary:hover {
+  background-color: #FF6F00; 
+  color: white; 
+  border-color: #FF6F00; 
+}
+
+.review-container {
+  background-color: rgba(0, 0, 0, 0.6);  /* Black background with 60% opacity */                           /* White text color for contrast */
+  padding: 1.5rem;                        /* Padding inside the box */
+  border-radius: 10px;                    /* Rounded corners */
+  display: flex;                          /* Flexbox for internal alignment */
+  flex-direction: column;                 /* Stack elements vertically */
+  justify-content: space-between;         /* Space out the content */
+  height: 100%;                           /* Make sure it takes the full height */
+  width: 90%;                            /* Full width */
+  overflow: hidden;                       /* Ensure no content overflows outside the container */
+}
+
+.review-box {    /* Take up full width of parent */     /* Take up full height of the viewport */
+  display: flex;       /* If you want to organize child elements flexibly */
+  justify-content: center; /* Optional: Centers content horizontally */
+  align-items: center; /* Optional: Centers content vertically */
+}
+
+.parent-container {
+  display: flex;
+  justify-content: space-between; /* Spread content horizontally */
+  align-items: flex-end; /* Aligns items at the bottom */
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  position: relative; /* Allows absolute positioning of child elements */
+}
+
+/* The class for the container with black background and 80% opacity */
+/* Black overlay box styles */
+.black-overlay-box {
+  background-color: rgba(0, 0, 0, 0.6);  /* Black background with 60% opacity */
+  padding: 2rem;                          /* Padding inside the box */
+  border-radius: 10px;                    /* Rounded corners */
+  display: flex;                          /* Flexbox for internal alignment */
+  flex-direction: column;                 /* Stack elements vertically */
+  justify-content: space-between;         /* Space out the content */
+  height: 60%;                           /* Full height of the parent container */
+  width: 90%;                            /* Full width for the black box */
+  overflow: auto;                         /* Allow scrolling if content overflows */
+}
+
+/* Ensure the right-side container takes full height */
+.right-side {
+  display: flex;
+  flex: 1;                                /* Make sure it takes available space */
+  justify-content: flex-start;            /* Align to the top */
+  height: 100%;                           /* Take full height of the container */
+}
+
+.left-side, .right-side {
+  display: flex;
+  flex: 1;                                /* Ensure both sides take up equal width */
+  justify-content: flex-start;            /* Align to the left for the left side */
+  height: 100%;                           /* Take up full height of parent container */
+}
+
+.button-spacing {
+  margin-right: 10px;  /* Adjust the space as needed */
+}
+
+/* Review italic text */
+.italic-text {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.pt-5 {
+  padding-top: 0rem !important;
+}
+.py-4 {
+  padding-top: 0rem !important;
+}
+.mb-4 {
+  margin-top: 0rem !important;
+}
+.p-5 {
+  padding: 10px !important;
+}

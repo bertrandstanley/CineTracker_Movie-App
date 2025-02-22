@@ -1,0 +1,50 @@
+/* Login.css */
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #F0FFFF;
+}
+
+.login-container img {
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.login-container .form-floating {
+    margin-bottom: 1rem;
+}
+
+.login-container button {
+    margin-top: 1rem;
+}
+
+.login-container p {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-top: 2rem;
+}
+
+/* Make the user input text larger */
+.form-floating input {
+    font-size: 1.5rem;
+    /* Increase the font size for input text */
+    padding: 1rem;
+    /* Adjust padding if needed */
+    height: 3rem!important;
+    line-height: 3rem !important;
+    padding: 0 0.75rem!important;
+}
+
+/* Hide the label when the input is focused or when there is content in the input */
+.form-floating input:focus+label,
+.form-floating input:not(:placeholder-shown)+label {
+    display: none !important;
+}
